@@ -1,4 +1,4 @@
-
+# Added FIFO algorithm
 # Simple Page Replacement Simulator: FIFO, LRU, Optimal
 # Usage: python3 page_replacement.py
 

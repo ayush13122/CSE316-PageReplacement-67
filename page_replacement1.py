@@ -100,6 +100,9 @@ def main():
 
     results = {"FIFO": f_fifo, "LRU": f_lru, "Optimal": f_opt}
     best = min(results, key=results.get)
+
+    # Comparing algorithms
+
     print(f"\nBest algorithm for given input: {best} with {results[best]} page faults")
     
     # Optional: show frame states for one algorithm (uncomment to show)

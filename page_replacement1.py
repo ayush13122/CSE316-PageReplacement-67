@@ -94,6 +94,8 @@ def main():
     print(f"FIFO  -> Page Faults: {f_fifo}, Hit Ratio: {hit_ratio(n,f_fifo):.2f}")
     print(f"LRU   -> Page Faults: {f_lru}, Hit Ratio: {hit_ratio(n,f_lru):.2f}")
     print(f"Optimal -> Page Faults: {f_opt}, Hit Ratio: {hit_ratio(n,f_opt):.2f}")
+    print("FIFO simulation completed")
+
 
     results = {"FIFO": f_fifo, "LRU": f_lru, "Optimal": f_opt}
     best = min(results, key=results.get)
